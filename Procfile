@@ -1,1 +1,1 @@
-worker: python Hello.py
+web: gunicorn hello:app --log-file -
